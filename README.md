@@ -57,17 +57,22 @@ The system employs a multi-component architecture ensuring real-time performance
     ```bash
     export GEMINI_API_KEY="YOUR_API_KEY_HERE"
     ```
+4. **Run the Fusion Layer to detect Emotion:**
+    Start the Fusion Layer:
 
-4.  **Run the Application:**
+    ```bash
+    python REALTIME.py
+    ```
+6. **Run the Application:**
     Start the backend server (e.g., Flask/FastAPI):
 
     ```bash
-    python main.py
+    python UI.py
     ```
 
     (Note: Specific command depends on your final backend framework.)
 
-5.  **Access the Frontend:**
+8.  **Access the Frontend:**
     Open your web browser and navigate to `http://localhost:5000` (or the port specified by your server). Grant camera permissions to start sensing.
 
 ### **Ethical Considerations & Privacy**
