@@ -1,0 +1,2 @@
+# Neuroadaptive-AI-Interface-Building-Emotion--Aware-Eye-Responsive-Systems
+This paper introduces a Neuroadaptive Emotion Aware System designed to significantly improve the conversational empathy and utility of Large Language Models (LLMs) by integrating real-time non-verbal user context. Standard LLM-based chatbots often provide emotionally indifferent responses due to their lack of access to crucial non-verbal cues.
