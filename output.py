@@ -5,7 +5,7 @@ from input import get_fused_emotion, get_realtime_face_emotion # Import the key 
 
 # --- 1. CONFIGURATION & API SETUP ---
 # NOTE: Make sure your multimodal_inputs.py is in the same directory.
-API_KEY = "AIzaSyA2BfE8y37_3GIrDz45ByDZGzgQXYcHHLs" 
+API_KEY = "" #your api key here
 MODEL_NAME = "gemini-2.5-flash-preview-09-2025"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={API_KEY}"
 
@@ -113,3 +113,4 @@ if __name__ == "__main__":
         print("ERROR: API_KEY is missing. Please edit the 'multimodal_client.py' file")
     else:
         run_chat_app()
+
